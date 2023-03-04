@@ -98,16 +98,18 @@ export default function Home() {
             src="./images/home/phone_1.png"
             className="security-solution-center-img"
             data-aos="zoom-in"
+            alt=" security-solution-center-img"
             // data-aos-offset="250vh"
           />
           <img
             src="./images/home/phone_2.png"
             className="security-solution-last-img"
             data-aos="fade-up"
+            alt="security-solution-last-img"
             // data-aos-offset="250vh"
           />
         </div>
-        <div className="security-solution-content" data-aos="fade-left">
+        <div className="security-solution-content" data-aos="fade-up">
           <h1>Best Solution For Security System</h1>
           <p>
             SmartRent is an enterprise smart home automation company developing

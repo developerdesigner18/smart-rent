@@ -75,12 +75,34 @@
     .home-header-img-title-btn-container{
         margin-left: 100px;
     }
+    .security-solution-img-box{
+        margin-left: 0px;
+    }
+    .security-solution-center-img{
+        width: 250px;
+        height: 280px
+    }
+    .security-solution-last-img{
+        margin-top: 175px;
+    }
 }
 @media only screen and (max-width:700px) {
     .home-header-img-title-btn-container{
         margin-left: 60px;
-       
     }
+    .security-solution-container{
+        display: block;
+    }
+    .security-solution-content{
+        margin: auto;
+        width: 90%;
+    }
+    .security-solution-img-box{
+        margin: auto;
+        width: 90%;
+        justify-content: center;
+    }
+
 }
 @media only screen and (max-width:400px) {
     .home-header-img-title-btn-container{
