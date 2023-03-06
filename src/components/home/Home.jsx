@@ -3,6 +3,8 @@ import "./Home.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Button, Carousel } from "antd";
+import AvailableServices from "./components/availableServices/AvailableServices";
+import SelfGuide from "./components/selfGuide/SelfGuide";
 
 export default function Home() {
   useEffect(() => {
@@ -109,7 +111,7 @@ export default function Home() {
             // data-aos-offset="250vh"
           />
         </div>
-        <div className="security-solution-content" data-aos="fade-up">
+        <div className="security-solution-content">
           <h1>Best Solution For Security System</h1>
           <p>
             SmartRent is an enterprise smart home automation company developing
@@ -126,6 +128,8 @@ export default function Home() {
           </Button>
         </div>
       </div>
+      <SelfGuide />
+      <AvailableServices />
     </div>
   );
 }

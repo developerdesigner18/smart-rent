@@ -1,0 +1,19 @@
+.self-guide-tour-container{
+    background: #3D859B;
+    margin-bottom: 40px;
+    color: white;
+    padding: 1px 0px;
+    width: 100%;
+    overflow-x: hidden !important;
+}
+.self-guide-tour-content{
+    width: 400px;
+    margin: 20px 50px 30px 80px;
+}
+.self-guide-tour-container img{
+    width: 410px;
+    height: 310px;
+    position: absolute;
+    right: 0px;
+    top: 167%;
+}
