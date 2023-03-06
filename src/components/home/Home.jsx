@@ -5,6 +5,8 @@ import "aos/dist/aos.css";
 import { Button, Carousel } from "antd";
 import AvailableServices from "./components/availableServices/AvailableServices";
 import SelfGuide from "./components/selfGuide/SelfGuide";
+// import ContectDivider from "./components/contectDivider/ContectDivider";
+import Getintouch from "./components/getintouch/Getintouch";
 
 export default function Home() {
   useEffect(() => {
@@ -130,6 +132,8 @@ export default function Home() {
       </div>
       <SelfGuide />
       <AvailableServices />
+      {/* <ContectDivider /> */}
+      <Getintouch />
     </div>
   );
 }

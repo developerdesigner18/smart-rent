@@ -1,0 +1,119 @@
+.get-in-touch-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    align-items: center;
+    position: relative;
+}
+.get-in-touch-left-container{
+    width: 30%;
+    /* background: #222222; */
+}
+.get-in-touch-map{
+    position: absolute;
+    width:600px;
+    height:450px;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    /* border-radius: 10px; */
+    margin-left: 30px;
+
+}
+
+.get-in-touch-input-form-container-bkg{
+    background: #3D859B;
+    border-radius: 10px 0px 0px 10px;
+    /* border: 2px solid #224b58; */
+    margin: auto;
+    width:  70%;
+}
+.get-in-touch-input-form-container-bkg input{
+    border: none;
+}
+.get-in-touch-input-form-container-bkg input:focus{
+    outline: none !important;
+}
+.get-in-touch-title{
+    margin-top: 0px;
+    /* color: ; */
+}
+.get-in-touch-input-form-container{
+    width: 65%;
+    /* margin: auto; */
+    float: right;
+    margin-right: 30px;
+    color: white;
+}
+.get-in-touch-input-container{
+    display: flex;
+}
+.get-in-touch-name-input{
+    width: 80% !important;
+    margin-right:  20px;
+    /* border: 1px solid #2b5f6e; */
+}
+.get-in-touch-email-input{
+    width: 80% !important;
+    margin-left:  20px;
+}
+.get-in-touch-message-input{
+    margin-bottom: 20px;
+    height: 120px !important;
+    resize: none !important;
+    border: none;
+}
+.get-in-touch-message-input:focus{
+    border: none !important;
+}
+.get-in-touch-divider{
+    height: 100px;
+    background: #222222;
+}
+.send-msg-btn{
+    background: #2b5f6e;
+    color: white;
+    border: 1px solid #2b5f6e;
+    width: 100%;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.send-msg-btn:hover{
+    color: white !important ;
+    border: 1px solid #2b5f6e !important;
+}
+@media screen and (max-width:1100px){
+    .get-in-touch-map{
+       
+        width:500px;
+        height:350px;
+      
+    
+    }
+}
+@media screen and (max-width:900px) {
+    .get-in-touch-container{
+        display: block;
+    }
+    .get-in-touch-map{
+        position: relative;
+        top: 0%;
+        left: 0%;
+    transform: translate(-0%, -0%);
+    margin-left: 10px;
+    }
+    .get-in-touch-left-container{
+        width: fit-content;
+        margin: auto;
+
+    }
+
+    .get-in-touch-input-form-container-bkg{
+
+        background: #3D859B;
+        position: absolute;
+    }
+}
