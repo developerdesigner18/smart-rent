@@ -44,7 +44,7 @@ export default function Home() {
         </div>
         <div className="home-header-img-container">
           <img
-            src="https://plus.unsplash.com/premium_photo-1668799885570-efc27ab12293?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW91bnRhaW5zfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            src="https://images.unsplash.com/photo-1496368077930-c1e31b4e5b44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2VjdXJpdHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
             alt="home-header-img"
             className="home-header-img"
           />
@@ -68,7 +68,7 @@ export default function Home() {
         </div>
         <div className="home-header-img-container">
           <img
-            src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW5zfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            src="https://media.istockphoto.com/id/1310118255/photo/smart-home-control-in-kitchen.jpg?b=1&s=170667a&w=0&k=20&c=VvdjVx9xJpSPi1A8ghJ4u0d6DQJr7RhJ29-oZWmhA-k="
             alt="home-header-img"
             className="home-header-img"
           />
@@ -132,7 +132,6 @@ export default function Home() {
       </div>
       <SelfGuide />
       <AvailableServices />
-      {/* <ContectDivider /> */}
       <Getintouch />
     </div>
   );

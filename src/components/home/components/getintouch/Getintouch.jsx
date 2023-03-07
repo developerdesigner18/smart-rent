@@ -13,7 +13,6 @@ export default function Getintouch() {
   }, []);
   return (
     <>
-      {/* <div className="get-in-touch-divider"></div> */}
       <div className="get-in-touch-container">
         <div className="get-in-touch-left-container" data-aos="fade-right">
           <iframe
@@ -23,7 +22,6 @@ export default function Getintouch() {
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-            // data-aos="fade-left"
           ></iframe>
         </div>
         <div className="get-in-touch-input-form-container-bkg">
@@ -46,15 +44,12 @@ export default function Getintouch() {
               placeholder="Message"
               className="get-in-touch-message-input"
             />
-            {/* <div style={{ width: "50%" }}> */}
             <Button className="send-msg-btn" size="large">
               SEND MESSAGE
             </Button>
-            {/* </div> */}
           </div>
         </div>
       </div>
-      {/* <div className="get-in-touch-divider"></div> */}
     </>
   );
 }
