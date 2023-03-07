@@ -72,10 +72,10 @@
     background: #222222;
 }
 .send-msg-btn{
-    background: #2b5f6e;
+    background: #222222;
     color: white;
-    border: 1px solid #2b5f6e;
-    width: 100%;
+    border: 1px solid #222222;
+    width: 50%;
     margin: auto;
     font-size: 18px;
     font-weight: 600;
@@ -144,5 +144,8 @@
     .get-in-touch-email-input{
         width: 100% !important;
         margin-left:  0px;
+    }
+    .send-msg-btn{
+        width: 100%;
     }
 }

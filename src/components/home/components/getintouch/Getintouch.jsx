@@ -46,11 +46,11 @@ export default function Getintouch() {
               placeholder="Message"
               className="get-in-touch-message-input"
             />
-            <div style={{ margin: "auto", width: "80%" }}>
-              <Button className="send-msg-btn" size="large">
-                SEND MESSAGE
-              </Button>
-            </div>
+            {/* <div style={{ width: "50%" }}> */}
+            <Button className="send-msg-btn" size="large">
+              SEND MESSAGE
+            </Button>
+            {/* </div> */}
           </div>
         </div>
       </div>
