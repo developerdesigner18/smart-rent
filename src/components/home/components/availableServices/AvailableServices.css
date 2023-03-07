@@ -51,7 +51,12 @@
     }
     .services-clmn{
         text-align: center;
-        /* border: 1px solid gray;
-        border-radius: 10px; */
     }
+}
+@media only screen and (max-width:400px) {
+    .available-services-heading{
+        font-size: 30px;
+        width: 100%;
+    }
+   
 }
